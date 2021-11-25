@@ -29,5 +29,5 @@ Take a look through the `views` directory to find the existing pages.
 
 | Task              | Points |
 | ----------------- | ------ |
-| `/books` route    | 2.5    |
-| `/books:id` route | 2.5    |
+| `/books` route    | 5      |
+| `/books:id` route | 5      |
