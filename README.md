@@ -3,7 +3,7 @@
 ### Learning Objectives
 
 - Create the illusion of multiple pages in a Single Page Application routes by using react-router.
-- Use `this.props.match.params` or the `useParams` hook to get the `:id` in a path for creating a List/Detail pattern with react-router.
+- Use `props.match.params` or the `useParams` hook to get the `:id` in a path for creating a List/Detail pattern with react-router.
 - Use `<Link>` to create links that navigate a Single Page Application.
 
 ### Description
@@ -29,7 +29,8 @@ Take a look through the `views` directory to find the existing pages.
  
 | Task                                              | Points |
 | ------------------------------------------------- | ------ |
-| `/books` route                                    | 4      |
-| `/books:id` route                                 | 4      |
+| `/books` route                                    | 3      |
+| `/books/:id` route                                | 3      |
+| `BookDetails` gets the `id` from the URL path     | 2      |
 | Book titles from list view `Link` to book details | 1      |
 | "Back to Catalog" `Link` added to `BookDetails`   | 1      |
