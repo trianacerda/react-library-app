@@ -14,7 +14,7 @@ Your task is to finish off the remaining work by adding the necessary routes to 
 
 - `/books`
   - This page lists all the books in the library's database.
-- `/book/:id`
+- `/books/:id`
   - This page shows the details for a single book, such as its author and genre.
 
 Take a look through the `views` directory to find the existing pages.
