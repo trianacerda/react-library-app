@@ -26,8 +26,10 @@ Take a look through the `views` directory to find the existing pages.
 - A user can click a link from the book detail page to go back to the list of books
 
 ### Rubric
-
-| Task              | Points |
-| ----------------- | ------ |
-| `/books` route    | 5      |
-| `/books:id` route | 5      |
+ 
+| Task                      | Points |
+| ------------------------- | ------ |
+| `/books` route            | 4      |
+| `/books:id` route         | 4      |
+| Link to view book details | 1      |
+| `Back to Catalog` link    | 1      |
