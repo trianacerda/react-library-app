@@ -1,4 +1,4 @@
-import { Router, NavLink } from 'react-router-dom'
+import { Router, Route, Switch } from 'react-router-dom'
 import BookList from './views/Books/BookList'
 import BookDetail from './views/Books/BookDetail'
 import './App.css'
@@ -7,20 +7,18 @@ function App() {
   // TODO: Add routes to books & views
   return (
     <main className="container">
-      <Router>
-        <NavLink exact path="/" className="home">
-          Home
-        </NavLink>
-        <NavLink path="/books" className="books">
-          Books
-        </NavLink>
-      </Router>
+      <h1>Library Catalog</h1>
+      <section className="books">
+        <Router>
+          <Switch>
+            <Route path="/books/:id" component={BookDetail} />
+            <Route path="/books" component={BookList} />
+          </Switch>
+        </Router>
+      </section>
+      <BookList />
     </main>
   )
 }
 
 export default App
-
-{
-  /* <BookList /> */
-}
