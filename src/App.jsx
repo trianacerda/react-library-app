@@ -11,8 +11,8 @@ function App() {
       <section className="books">
         <Router>
           <Switch>
+            <Route exact path="/books" component={BookList} />
             <Route path="/books/:id" component={BookDetail} />
-            <Route path="/books" component={BookList} />
           </Switch>
         </Router>
       </section>
