@@ -12,8 +12,7 @@
 
 ### Description
 
-[Get started](
-https://github.com/alchemycodelab/react-library-app)
+[Get started](https://github.com/alchemycodelab/react-library-app)
 
 Your local library hired a developer to build an interface for their database of books. Unfortunately, the previous developer ended up taking another job while leaving the library app unfinished. Luckily, the views have been created. However, there's currently no way to navigate to the views as the app hasn't been configured with a router!
 
