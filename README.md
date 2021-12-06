@@ -1,10 +1,6 @@
 # Library App
 
-<<<<<<< HEAD
-### Demo
-=======
 ## Demo
->>>>>>> 4f88fc1 (add demo to rubric)
 
 [https://alchemy-react-library-app.netlify.app](https://alchemy-react-library-app.netlify.app)
 
