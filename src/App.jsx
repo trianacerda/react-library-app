@@ -1,7 +1,7 @@
-import { Router, Route, Switch } from 'react-router-dom'
-import BookList from './views/Books/BookList'
-import BookDetail from './views/Books/BookDetail'
-import './App.css'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import BookList from './views/Books/BookList';
+import BookDetail from './views/Books/BookDetail';
+import './App.css';
 
 function App() {
   // TODO: Add routes to books & views
@@ -18,7 +18,7 @@ function App() {
       </section>
       <BookList />
     </main>
-  )
+  );
 }
 
-export default App
+export default App;
